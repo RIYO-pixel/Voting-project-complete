@@ -1,0 +1,11 @@
+opencv-python
+tensorflow
+mediapipe
+deepface
+Flask
+pymongo
+dnspython
+flask-cors
+numpy
+pandas
+tf-keras
