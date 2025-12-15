@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import io.github.cdimascio.dotenv.Dotenv;
 
+
 @SpringBootApplication
 public class VotingprojectApplication {
 
@@ -13,7 +14,6 @@ public class VotingprojectApplication {
 
         // Export to Spring environment
         System.setProperty("MONGO_URL", dotenv.get("MONGO_URL"));
-        System.setProperty("PORT", dotenv.get("PORT"));
         System.setProperty("DATABASE", dotenv.get("DATABASE"));
         System.setProperty("MAIL_USERNAME", dotenv.get("MAIL_USERNAME"));
         System.setProperty("MAIL_PASSWORD", dotenv.get("MAIL_PASSWORD"));
